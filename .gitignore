@@ -1,0 +1,31 @@
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Diretórios do sistema
+.DS_Store
+Thumbs.db
+__pycache__/
+node_modules/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Artefatos de build
+bin/
+obj/
+dist/
+build/
+
+# Arquivos sensíveis
+*.env
+.env.local
+secrets.txt
+
+# Cache
+.cache/
+.pytest_cache/
